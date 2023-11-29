@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.K Event Management</title>
+    <link rel="stylesheet" href="/jkEvent/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Castoro+Titling&family=Poppins:ital,wght@0,200;0,400;1,100&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav>
+            <div class="logo">
+                <div class="logo-img">
+                    <img src="/jkEvent/UsserAsset/JKlogo.jpeg" alt="" srcset="">
+                </div>
+                <span id="logo-name">Events.</span>
+            </div>
+            <div class="navbar">
+                <div class="nav-links"><a href="">Home</a></div>
+                <div class="nav-links"><a href="#service">Services</a></div>
+                <div class="nav-links"><a href="#about">About</a></div>
+                <div class="nav-links"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars" onclick="ToggleMenu()"></i>
+        </nav>
+        <div class="container">
+            <div class="hero-section">
+                <div class="left-section">
+                    <div class="title">
+                        <h1> "happiness is when it's well decorated creating magic in the heart of peoples"</h1>
+                    </div>
+                    <button id="book-btn"><a href="#contact">Book Now</a></button>
+                </div>
+                <div class="rigth-section">
+                    <div class="right-img">
+                        <img src="/jkEvent/UsserAsset/EventLogo.png" alt="" srcset="">
+                        <h2 id="prof-name">Org:-Vivek Ahire</h2>
+                    </div>
+                </div>
+            </div>
+            <main>
+                <h1 id="service">Services</h1>
+                <div class="servises">
+                    <div class="card">
+                        <img src="/jkEvent/UsserAsset/chinise-building.jpg" alt="" srcset="" width="400px">
+                        <h3 class="event-name">Wedding Event</h3>
+                        <button class="order-btn"><a href="#contact">Order</a></button>
+                    </div>
+                    <div class="card">
+                        <img src="/jkEvent/UsserAsset/ringCeremony.jpeg" alt="" srcset="" width="400px" height="400px">
+                        <h3 class="event-name">Ring Ceremony</h3>
+                        <button class="order-btn"><a href="#contact">Order</a></button>
+                    </div>
+                    <div class="card">
+                        <img src="/jkEvent/UsserAsset/birthday.jpg" alt="" srcset="" width="400px">
+                        <h3 class="event-name">Birthday Party</h3>
+                        <button class="order-btn"><a href="#contact">Order</a></button>
+                    </div>
+                    <div class="card">
+                        <img src="/jkEvent/UsserAsset/baby shower.jpeg" alt="" srcset="" width="400px">
+                        <h3 class="event-name">Baby Shower</h3>
+                        <button class="order-btn"><a href="#contact">Order</a></button>
+                    </div>
+                    <div class="card">
+                        <img src="/jkEvent/UsserAsset/sirio-hm3efUMoReg-unsplash.jpg" alt="" srcset="" width="400px">
+                        <h3 class="event-name">Baloons Decoration</h3>
+                        <button class="order-btn"><a href="#contact">Order</a></button>
+                    </div>
+                    <div class="card">
+                        <img src="/jkEvent/UsserAsset/PartyEvents.jpeg" alt="" srcset="" width="400px">
+                        <h3 class="event-name">College Event</h3>
+                        <button class="order-btn"><a href="#contact">Order</a></button>
+                    </div>
+                </div>
+
+                <!-- hero-section End -->
+                <h1 id="about">About Us</h1>
+                <div class="About_us">
+                    <div class="profile-img">
+                        <img src="/jkEvent/UsserAsset/profile.JPG" alt="" width="450px" height="450px">
+                    </div>
+                    <div class="profile-info">
+                        <h2 id="profile-name">~ Vivek Ahire ~</h2>
+                        <div class="event-title">
+                            <h3>Instructor</h3>
+                            <div class="event-img">
+                                <img src="/jkEvent/UsserAsset/JKlogo.jpeg" alt="" srcset="" width="70px"><span>Events.</span>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <p> "Home sweet home, where dreams are designed."
+                                "Nurturing my space, one cosy corner at a time."
+                                "Living in a Pinterest-worthy paradise!"
+                                "Every detail tells a story of style and love."
+                                "Making memories amidst these beautiful walls."</p>
+                        </div>
+                        <div class="social">
+                            <a href="https://wa.me/918379900309" target="_blank"> <i class="fa-brands fa-whatsapp"
+                                    id="watsapp"></i></a>
+                            <a href="https://www.instagram.com/invites/contact/?i=1424s7ihyhtss&utm_content=n6bg7yr"
+                                target="_blank"><i class="fa-brands fa-instagram" id="instragram"></i></a>
+                            <a href="https://www.facebook.com/vivek.ahire.3375" target="_blank"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <button id="contact-btn"><a href="#contact" target="_blank">Contact</a></button>
+                    </div>
+                </div>
+            </main>
+            <h1 id="contact">Contact Us</h1>
+            <div class="Contact">
+                <form action="https://formspree.io/f/xnqkkvee" method="POST">
+
+                    <div class="names">
+                        <label for="name">Enter Your Name:</label><br>
+                        <input type="text" placeholder="Enter Full Name" required autocomplete="off"><br>
+                    </div>
+                    <div class="names">
+                        <label for="Number">Enter Phone Number:</label><br>
+                        <input type="tel" placeholder="+91" name="Number" required autocomplete="off"><br>
+                    </div>
+                    <div class="names">
+                        <label for="city">Enter City Name:</label><br>
+                        <input type="text" placeholder="City Name" name="city" required autocomplete="off"><br>
+                    </div>
+                    <div class="names">
+                        <label for="Adress">Enter Adress:</label><br>
+                        <input type="text" placeholder="Enter correct Adress" name="Adress" required
+                            autocomplete="off"><br>
+                    </div>
+                    <div class="names">
+                        <label for="Date">Select Program Date:</label><br>
+                        <input type="date" name="Date" required><br>
+                    </div>
+                    <div class="massage">
+                        <textarea name="massage" id="" cols="45" rows="10" placeholder="Massage"></textarea>
+                    </div>
+                    <button type="submit" id="send-btn">Send</button>
+                </form>
+                <div class="survey-hand">
+                    <img src="/jkEvent/UsserAsset/surveyHand.jpg" alt="" srcset="">
+                </div>
+
+            </div>
+            <!-- footer -->
+            <footer>
+                <div class="adress">
+                    <h2>Adress</h2>
+                    <p>AT.POST DAUL.</p>
+                    <p>TAL.SHINDHKHEDA.DIST.DHULE</p>
+                    <p>MAHARASHTRA-425408</p>
+                </div>
+                <div class="phone-num">
+                    <h2>Contact</h2>
+                    <span>Laxman Ahire:</span><a href="tel:9420196460">9420196460</a>
+                    <span>Vivek Ahire:</span><a href="tel:8379900309">8379900309</a>
+                    <span>Himanshu Ahire:</span><a href="tel:9373052753">9373052753</a>
+                </div>
+                <div class="caption">
+                    <div class="footer-logo"><img src="/jkEvent/UsserAsset/JKlogo.jpeg" alt="" width="100px"><span>.Event
+                            Management</span></div>
+                    <ul>
+                        <li>Wedding Event</li>
+                        <li>RingCeremony</li>
+                        <li>Baloons Deco</li>
+                        <li>Aniversary Event etc.</li>
+                    </ul>
+                </div>
+                <div class="help">
+                    <a href="#logo-name">Home</a>
+                    <a href="">Help</a>
+                    <h2>24 hours</h2>
+                    <h3>Support Term Services</h3>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script>
+
+        let items = document.querySelector('.navbar');
+        console.log(items);
+        function ToggleMenu() {
+            items.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
